@@ -10,32 +10,35 @@ import { books } from './books'
 
 for(let b of books){
 
-    let b_thumb = document.getElementById('b' + m.id)
-    m_thumb.innerHTML = `
+    let b_thumb = document.getElementById('b' + b.id)
+    b_thumb.innerHTML = `
         <img src="${b.poster}" alt="${b.title}" class="img-thumbnail"/>
     `
 
         b_thumb.onclick = function() {
             displayBooks(b)
+
+          
         }
 
 }
 
 let featured_books = document.querySelector(".featured")
 function displayBooks(books) {
-    featured_movie.innerHTML = `
+    featured_books.innerHTML = `
     <div class="card">
           <div class="card-header">${books.title}</div>
           <img src="${books.poster}" class="card-img-top" alt="${books.title}">
           <div class="card-body">
-            <h5 class="card-title"><small>${books.released}, ${books.author}</small></h5>
-            <p class="card-text">${books.plot}</p>
           </div>
           <div class="card-footer text-muted">
-            <div class="row row-cols-3">
+            <div class="row row-cols-2">
               <div class="col"><strong>Rating: </strong> ${books.author}</div>
               <div class="col"><strong>Rated: </strong>${books.released}</div>
-              <div class="col"><strong>Voted: </strong>${books.plot}</div>
+              <div class="col2"><strong>Plot: </strong>${books.plot}</div>
+              <form action="/page.html">
+              <input type="submit" value="Go to Google" />
+          </form>
           </div>
         </div>
       </div>
@@ -43,23 +46,3 @@ function displayBooks(books) {
 }
 
 
-function searchBooks(event) {
-    event.preventDefault()
-
-    let input = document.querySelector('[type="search"]').value ||""
-    let count = 0
-    for(let b of books) {
-        if(m.title.toUpperCase().indexOf(input.toUpperCase()) == -1) {
-         document.querySelector(`#m${m.id}`).classList.add('d-none')
-    }else {
-        document.querySelector(`#m${m.id}`).classList.remove('d-none')
-        count++
-    }
-}
- featured_books.innerHTML = count ==0 ? 'Nothing was found' : ''
-
-}
-
-document.querySelector("button").onclick = searchBooks
-document.querySelector('[type="search"]').onsearch = searchBooks
-document.querySelector("form").onsubmit = searchBooks

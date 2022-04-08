@@ -1,2 +1,45 @@
 /* Your styles go here */
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.jumbotron {
+color: rgb(85, 17, 17);
+background-color: rgba(245, 245, 245, 0.555);
+}
+
+.card {
+    width: 20rem;
+    height: 20rem;
+   
+}
+
+.card-footer {
+    width: 20rem;
+}
+
+.card-header {
+    color: rgb(83, 10, 10);
+    font-size: 20px;
+}
+
+.col2 {
+    width: 50rem;
+    padding-top: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+.add-book {
+    margin-top: 20px;
+    margin-left: 70px;
+    }

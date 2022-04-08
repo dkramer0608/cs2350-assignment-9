@@ -25,26 +25,18 @@ export const books = [{
   },
 
   {
-    "id": 4,
+    "id": 6,
     "title": "The Girl with the Dragon Tattoo",
     "author": "Stieg Larsson",
     "released": "August 2005",
-    "plot": "The first book of Stieg Larssons Millennium series introduces us to journalist Mikael Blomkvist and freelance hacker Lisbeth Salander. Following two separate strings of events, the characters eventually find themselves both trying to find the person who, forty years ago, supposedly killed Harriet Vanger — niece of one of the wealthiest men in Sweden. Blomkvist is invited to stay over at the wealthy familys island, where he comes into contact with other family members who were present at the scene years ago, and begins to wonder if any of them were involved.",
+    "plot": "The first book of Stieg Larssons Millennium series introduces us to journalist Mikael Blomkvist and freelance hacker Lisbeth Salander. Following two separate strings of events, the characters eventually find themselves both trying to find the person who, forty years ago, supposedly killed Harriet Vanger — niece of one of the wealthiest men in Sweden.",
     "poster": "https://m.media-amazon.com/images/P/0307949486.01._SCLZZZZZZZ_SX500_.jpg",
   },
 
-  {
-    "id": 5,
-    "title": "The Day of the Jackal",
-    "author": "Frederick Forsyth",
-    "released": "1967",
-    "plot": "“The Jackal” is the codename of the assassin hired to kill French President Charles de Gaulle in this enthralling tale. Whats more thrilling is the fact that this kill order came from within the government and thus must be covered up well. The Jackals challenge is thus two-fold — to circumvent the heavy safeguarding reserved for one of the most important men on Earth, and to protect his own identity, even from his employers.",
-    "poster": "https://m.media-amazon.com/images/P/0451239377.01._SCLZZZZZZZ_SX500_.jpg",
-  },
 
 
   {
-    "id": 6,
+    "id": 4,
     "title": "Big Little Lies",
     "author": "Liane Moriarty",
     "released": "July 2014",
@@ -68,23 +60,15 @@ export const books = [{
     "title": "The Deep Blue Good",
     "author": "John D. MacDonald",
     "released": "May 21, 1964",
-    "plot": "As we are introduced to this tall, charming, and righteous character, he is swept away on a mission to find military man Junior Allen, a serial rapist and murderer. Allen has also discovered a smuggled treasure buried somewhere in Florida, and is using that to fund his malicious exploits. The difficult responsibility of trying to locate this psychopath falls onto McGees shoulders, the only person with the methodological patience to pick up Allens trace. Too often, the protagonist of detective stories are portrayed as being rational to the point of cold-hearted; its probably worth your while to change it up a little with Travis McGees quest for goodness.",
+    "plot": "As we are introduced to this tall, charming, and righteous character, he is swept away on a mission to find military man Junior Allen, a serial rapist and murderer. Allen has also discovered a smuggled treasure buried somewhere in Florida, and is using that to fund his malicious exploits. The difficult responsibility of trying to locate this psychopath falls onto McGees shoulders, the only person with the methodological patience to pick up Allens trace.",
     "poster": "https://m.media-amazon.com/images/P/0812983920.01._SCLZZZZZZZ_SX500_.jpg",
   },
 
 
-  {
-    "id": 9,
-    "title": "The Sweetness at the Bottom of the Pie",
-    "author": "Alan Bradley",
-    "released": "January 22, 2009",
-    "plot": "Not all of the best mystery books have to leave a heavy sense of dread at the bottom of your stomach, and The Sweetness at the Bottom of the Pie is proof of that. The sleuth who saves the day in this novel is Flavia, an intuitive 11-year-old whose father is accused of murder. A stranger has ended up dead in the familys yard, one who happened to have been seen arguing with Flavias dad days before. Determined that her stamp-loving father, who has been heart-broken since the death of his wife, would never kill anyone, Flavia tours the town to try and prove his innocence. Light-hearted as it may sound, this novels puzzle is incredibly well-crafted and its classical mystery style, reminiscent of the works of Agatha Christie and Josephine Tey, makes it easy to finish the volume in one sitting. ",
-    "poster": "https://m.media-amazon.com/images/P/0385343493.01._SCLZZZZZZZ_SX500_.jpg",
-  },
 
 
   {
-    "id": 10,
+    "id": 5,
     "title": "The Silence of the Lambs",
     "author": "Thomas Harris",
     "released": "May 19, 1988",
