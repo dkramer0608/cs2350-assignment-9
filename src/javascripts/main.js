@@ -37,7 +37,7 @@ function displayBooks(books) {
               <div class="col"><strong>Rated: </strong>${books.released}</div>
               <div class="col2"><strong>Plot: </strong>${books.plot}</div>
               <form action="/page.html">
-              <input type="submit" value="Go to Google" />
+              <input type="submit" value="Send Suggestion Form" />
           </form>
           </div>
         </div>
