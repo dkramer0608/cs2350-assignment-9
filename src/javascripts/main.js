@@ -25,11 +25,11 @@ let featured_books = document.querySelector(".featured")
 function displayBooks(books) {
     featured_movie.innerHTML = `
     <div class="card">
-          <div class="card-header">${movie.title}</div>
-          <img src="${movie.poster}" class="card-img-top" alt="${movie.title}">
+          <div class="card-header">${books.title}</div>
+          <img src="${books.poster}" class="card-img-top" alt="${books.title}">
           <div class="card-body">
-            <h5 class="card-title"><small>${movie.year}, ${movie.genre}</small></h5>
-            <p class="card-text">${movie.plot}</p>
+            <h5 class="card-title"><small>${books.released}, ${books.author}</small></h5>
+            <p class="card-text">${books.plot}</p>
           </div>
           <div class="card-footer text-muted">
             <div class="row row-cols-3">
